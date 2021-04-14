@@ -19,9 +19,9 @@ are used to configure these various services, as explained below.
 ## Running the Content Service
 
 The Content Service can be started locally using the following command:
-
+//https://stackoverflow.com/questions/64812810/spring-profiles-active-is-not-working-in-springboot-application
 ~~~
-~/spring-docs/spring-docs/$ mvn spring-boot:run [-Dspring.profiles.active=<database profile>, <storage profile> [, google-classification]]
+~/spring-docs/spring-docs/$ mvn spring-boot:run [-Dspring-boot.run.profiles=<database profile>, <storage profile> [, google-classification]]
 ~~~
 
 ### Database Profiles
