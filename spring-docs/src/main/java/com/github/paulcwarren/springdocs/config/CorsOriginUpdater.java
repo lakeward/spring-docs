@@ -28,6 +28,7 @@ public class CorsOriginUpdater {
 
         String allowedHost = System.getenv("SPRINGDOCS_ALLOW_HOST");
 
+//        allowedHost = "http://localhost:8080";
         if (allowedHost != null) {
 
             try {

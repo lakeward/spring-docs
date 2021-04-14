@@ -8,7 +8,7 @@ import org.springframework.content.fs.store.FilesystemContentStore;
 import org.springframework.content.rest.StoreRestResource;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
-@CrossOrigin
+//@CrossOrigin
 @StoreRestResource(path="documentscontent")
 public interface FsDocumentStore extends FilesystemContentStore<Document, String>, Searchable<String>, Renderable<String> {
 	//
