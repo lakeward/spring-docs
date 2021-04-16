@@ -108,11 +108,11 @@
 			<version>${spring.content.version}</version>
 		</dependency>
 		<!-- Search defaults to elasticsearch. Comment if you want to use solor.  -->
-  		<dependency>
+  		<!--<dependency>
 			<groupId>com.github.paulcwarren</groupId>
 			<artifactId>spring-content-elasticsearch</artifactId>
 			<version>${spring.content.version}</version>
-		</dependency>		
+		</dependency>-->		
         <dependency>
             <groupId>com.github.paulcwarren</groupId>
             <artifactId>spring-content-solr</artifactId>
